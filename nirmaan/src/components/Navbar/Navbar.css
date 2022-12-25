@@ -1,0 +1,29 @@
+.navbar {
+    width: auto;
+    background-color: #05192D;
+    height: 75px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.navlinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_item {
+    font-size: large;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    margin : 20px;
+    /* display: flex; */
+}
+.nav_item.active {
+    font-weight: 600;
+    font-size: x-large;
+}
